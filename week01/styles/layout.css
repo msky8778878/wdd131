@@ -15,7 +15,7 @@ header {
     padding-bottom: 0;
 }
 
-header p {
+header h1 {
     margin: 1rem;
 }
 
@@ -53,12 +53,12 @@ footer {
     margin: 0;
 }
 
-.menu li {
+.menu a {
     background-color: black;
     color: white;
     padding: 1rem;
     width: 25%;
-    list-style-type: none;
+    text-decoration: none;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
