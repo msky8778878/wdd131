@@ -57,7 +57,7 @@ nav a {
     background-color: black;
     color: white;
     padding: 1rem;
-    width: 25%;
+    flex: 25%;
     text-decoration: none;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
