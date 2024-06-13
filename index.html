@@ -2,13 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Miroslav Michalsky</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals, Miroslav Michalsky, index page for this course main site">
+    <meta name="author" content="Miroslav Michalsky">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131</h1>
+    <div class="body-wrapper">
+        <header>
+            <h1>WDD 131: Dynamic Web Fundamentals - <span class="yellow-font">Miroslav Michalsky</span></h1>
+            <nav>
+                <a href="https://www.linkedin.com/in/miroslav-msky">LinkedIn</a>
+                <a href="https://byui.instructure.com/">I-Learn</a>
+                <a
+                    href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng&id=p17#p17">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card left-panel">
+                <h2>About Me</h2>
+                <div class="left-wrapper">
+                    <p id="left-text">My name is Miroslav and I go by Mirek. I was born and raised in Czechia, where I
+                        still live
+                        with
+                        my
+                        family. I am currently working as a junior developer for a security tech company. I also
+                        study
+                        computer
+                        science at university. I like to travel and spend time outside. I am a member of the Church of
+                        Jesus Christ of Latter-Day Saints. I served as a full-time missionary for the church in Poland.
+                    </p>
+                    <img id="mypic" src="images/myphoto.jpeg" alt="My photograph">
+
+                    <h3>Ostrava, Czechia</h3>
+
+                    <div id="flag-wrapper">
+                        <img id="flag" src="images/czech_flag.png" alt="Flag of Czechia">
+                        <p class="pic-desc">Official Flag of Czechia</p>
+                    </div>
+                    <p id="right-text">Czechia is a country in central Europe, historically known as Bohemia. There are
+                        many mountains, hills, forests and lakes. The country is best known for its beer, movies,
+                        castles and videogames. The capital city is called Prague. The country borders Germany to the
+                        west, Poland to the north-east, Slovakia to the south-east and Austria to the south.
+                    </p>
+
+                </div>
+            </section>
+            <section class="card right-panel">
+                <h2>Web Dev Resources</h2>
+                <div class="right-wrapper">
+                    <ul>
+                        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                        <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                        <li><a href="https://unsplash.com/">Unsplash</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                &#169;
+                <span id="currentyear"></span>
+                &#127757; Miroslav Michalsky &#127757; Czechia
+            </p>
+            <p class="yellow-font" id="lastModified"></p>
+        </footer>
+    </div>
 </body>
 
 </html>
