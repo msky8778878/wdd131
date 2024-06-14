@@ -171,7 +171,7 @@ p {
     grid-row: 3/4;
 }
 
-.left-h3 {
+#left-h3 {
     grid-column: 1 / 5;
     grid-row: 2/3;
 }
@@ -184,4 +184,6 @@ p {
 
 hr {
     color: var(--color-theme);
+    border: none;
+    height: 1px;
 }
