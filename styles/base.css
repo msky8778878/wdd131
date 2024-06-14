@@ -183,7 +183,7 @@ p {
 }
 
 hr {
-    color: var(--color-theme);
+    height: 0px;
     border: none;
-    height: 1px;
+    border-top: 1px solid var(--color-theme;
 }
