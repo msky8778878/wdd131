@@ -1,0 +1,104 @@
+:root {
+    --color-theme: #316360;
+    --body-width: 80rem;
+    --edges: 0.75rem;
+}
+
+body {
+    font-family: "Lora", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    max-width: var(--body-width);
+    margin: 0 auto;
+}
+
+.yellow-font {
+    color: yellow;
+}
+
+footer {
+    background-color: var(--color-theme);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+h1 {
+    color: white;
+    background-color: var(--color-theme);
+    text-align: center;
+    font-size: 1.6em;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+main {
+    text-align: center;
+    padding: 1em;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+    content: "⨯";
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: darkslategray;
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.navigation a:hover {
+    text-decoration: overline;
+}
+
+.open a {
+    display: block;
+    font-size: 1.2em;
+}
+
+.gallery-grid img {
+    width: 100%;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+}
