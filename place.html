@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czechia</title>
+    <meta name="description" content="W03 Assignment: Country Page - WDD131">
+    <meta name="author" content="Miroslav Michalsky">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <header>
+            <h1>Czechia</h1>
+        </header>
+
+        <main>
+            <div class="main-wrapper">
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/hero-large.webp">
+                    <source media="(min-width: 769px)" srcset="images/hero-medium.webp">
+                    <img id="hero-img" src="images/hero-small.webp" alt="Czechia picture" width="100%">
+                </picture>
+                <div class="data both-menus-wrapper">
+                    <h2>Data</h2>
+                    <table>
+                        <tr>
+                            <th>Area:</th>
+                            <td>78,866 sq km</td>
+                        </tr>
+                        <tr>
+                            <th>Population:</th>
+                            <td>10,503,638</td>
+                        </tr>
+                        <tr>
+                            <th>Capital:</th>
+                            <td>Prague</td>
+                        </tr>
+                        <tr>
+                            <th>Languages:</th>
+                            <td>Czech</td>
+                        </tr>
+                        <tr>
+                            <th>Currency:</th>
+                            <td>Czech Koruna</td>
+                        </tr>
+                        <tr>
+                            <th>Time Zone:</th>
+                            <td>UTC+1</td>
+                        </tr>
+                        <tr>
+                            <th>Calling Code:</th>
+                            <td>+420</td>
+                        </tr>
+                        <tr>
+                            <th>Internet TLD:</th>
+                            <td>.cz</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr class="seperator">
+                <div class="weather both-menus-wrapper">
+                    <h2 id="weather-h2">Weather</h2>
+                    <img id="weather-img" src="images/weather-icon.svg" alt="Weather Icon" width="25%">
+                    <table>
+                        <tr>
+                            <th>Temperature:</th>
+                            <td>
+                                <p id="temperature-label"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Conditions:</th>
+                            <td>
+                                <p id="conditons-label"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Wind:</th>
+                            <td>
+                                <p id="wind-label"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Wind Chill:</th>
+                            <td>
+                                <p id="windchill-label"></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                &#169;
+                <span id="currentyear"></span>
+                &#127757; Miroslav Michalsky &#127757; Czechia
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+    </div>
+</body>
+
+</html>

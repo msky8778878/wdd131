@@ -1,0 +1,63 @@
+:root {
+    --color-theme: #3d68db;
+    --body-width: 80rem;
+    --edges: 0.75rem;
+    --sec-color: #a31526;
+}
+
+@media only screen and (min-width: 769px) {
+
+    #weather-img {
+        display: none;
+    }
+
+    #weather-h2::after {
+        content: "⛅";
+        margin-left: 1em;
+    }
+
+    h2 {
+        color: #fff;
+        background-color: rgba(163, 21, 38, 0.75);
+        text-align: left;
+        padding: 0.75em;
+        width: 90%;
+        margin-left: -1em;
+        margin-bottom: 1em;
+    }
+
+    .seperator {
+        display: none;
+    }
+
+    .both-menus-wrapper {
+        padding: 1rem;
+        width: 33%;
+        background-color: rgba(255, 255, 255, 0.75);
+        margin-left: auto;
+        position: absolute;
+    }
+
+    .data {
+        left: 3%;
+        top: 5%;
+    }
+
+    .weather {
+        right: 2%;
+        bottom: 5%;
+    }
+
+    #hero-img {
+        border-bottom: none;
+    }
+
+    main {
+        margin-bottom: -0.25em;
+    }
+
+    .main-wrapper {
+        position: relative;
+    }
+
+}
